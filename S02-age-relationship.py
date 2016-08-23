@@ -29,7 +29,7 @@ traces_yes = [
         y=[params[0] * age + params[1] for age in AGE_RANGE],
         name='Tie Dye',
         mode='lines',
-        marker={'color': plotting.get_color(0)}
+        line={'color': plotting.get_color(0), 'width': 5}
     )
 ]
 
@@ -45,14 +45,14 @@ traces_no = [
         y=df_no.daily_revenue,
         name='Solid',
         mode='markers',
-        marker={'color': plotting.get_color(1, 0.25)}
+        marker={'color': plotting.get_color(3, 0.25)}
     ),
     go.Scatter(
         x=AGE_RANGE,
         y=[params[0] * age + params[1] for age in AGE_RANGE],
         name='Solid',
         mode='lines',
-        marker={'color': plotting.get_color(1)}
+        line={'color': plotting.get_color(3), 'width': 5}
     )
 ]
 
