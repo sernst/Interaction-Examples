@@ -1,0 +1,13 @@
+{
+  "author": "",
+  "id": "Interaction-Examples",
+  "name": "Interaction-Examples",
+  "steps": [
+    "S01-generate-data.py",
+    "S02-age-relationship.py",
+    "S03-linear-regression.py",
+    "S04-linear-regression-2.py"
+  ],
+  "summary": "",
+  "title": "Interaction examples"
+}
