@@ -2,7 +2,7 @@ import pandas as pd
 import cauldron as cd
 import numpy as np
 from cauldron import plotting
-import plotly.graph_objs as go
+from plotly import graph_objs as go
 
 df = cd.shared.df  # type: pd.DataFrame
 AGE_RANGE = cd.shared.AGE_RANGE

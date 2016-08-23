@@ -6,7 +6,8 @@
     "S01-generate-data.py",
     "S02-age-relationship.py",
     "S03-linear-regression.py",
-    "S04-linear-regression-2.py"
+    "S04-linear-regression-2.py",
+    "S05-summary-statistics.py"
   ],
   "summary": "",
   "title": "Interaction examples"
